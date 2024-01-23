@@ -10,8 +10,8 @@ const Hero = () => {
     AOS.init();
   }, []);
   return (
-    <div className="pt-20 relative hero bg-black w-full h-screen lg:pt-0 lg:h-full ">
-      <div className="w-[1440px] max-w-[90%] m-auto py-8">
+      <div className="pt-20 relative hero bg-black w-screen h-screen lg:pt-0 lg:h-full ">
+        <div className="w-[1440px] max-w-[90%] m-auto py-8">
         <div className="flex items-center md:flex-col lg:flex-col lg:space-y-10">
           <div className="w-[710px] md:w-full lg:w-full">
             <p className="text-white font-heading font-[700] text-[54px] leading-[76px] md:text-[20px] md:leading-9">
