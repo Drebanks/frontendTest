@@ -55,7 +55,7 @@ const Header = () => {
                         </div>
                     </div>
                 )}
-                {/* <Hero /> */}
+                <Hero />
             </div>
         </header>
     );

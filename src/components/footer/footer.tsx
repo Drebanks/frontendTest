@@ -61,14 +61,14 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-between py-8 md:flex-col-reverse">
                     <div className="flex gap-x-8">
-                        <p className="text-dark font-[400] font-body">
+                        <p className="text-dark font-integral font-[400] ">
                             2022 {"\u25CF"} Platform
                         </p>
                         <p className="text-dark font-[400] font-body">2022</p>
                     </div>
                     <div className="flex justify-between w-1/2 md:w-full md:mb-4">
-                        <p className="text-dark font-[400] font-body">TERMS & CONDITION</p>
-                        <p className="text-dark font-[400] font-body">PRIVACY POLICY</p>
+                        <p className="text-dark font-[400] font-integral ">TERMS & CONDITION</p>
+                        <p className="text-dark font-[400] font-integral">PRIVACY POLICY</p>
                     </div>
                 </div>
             </div>
