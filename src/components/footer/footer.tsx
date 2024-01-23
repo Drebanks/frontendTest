@@ -31,29 +31,29 @@ const Footer = () => {
                         </div>
                         <div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Twitter</p>
+                                <p className="text-white font-integral">Twitter</p>
                                 <img src={Icon} alt="img" />
                             </div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Discord</p>
+                                <p className="text-white font-integral">Discord</p>
                                 <img src={Icon} alt="img" />
                             </div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Instagram</p>
+                                <p className="text-white font-integral">Instagram</p>
                                 <img src={Icon} alt="img" />
                             </div>
                         </div>
                         <div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Cookies</p>
+                                <p className="text-white font-integral">Cookies</p>
                                 <img src={Icon} alt="img" />
                             </div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Licence</p>
+                                <p className="text-white font-integral">Licence</p>
                                 <img src={Icon} alt="img" />
                             </div>
                             <div className="flex gap-x-2">
-                                <p className="text-white">Contact</p>
+                                <p className="text-white font-integral">Contact</p>
                                 <img src={Icon} alt="img" />
                             </div>
                         </div>
