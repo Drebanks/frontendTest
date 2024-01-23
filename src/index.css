@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ProductSans";
+  src: url("./assets/fonts/Product Sans Regular.ttf");
+}
+@font-face {
+  font-family: "DrukWide";
+  src: url("./assets/fonts/FontsFree-Net-Druk-Wide-Bold.ttf");
+}
+@font-face {
+  font-family: "Integral";
+  src: url("./assets/fonts/Fontspring-DEMO-integralcf-regular.otf");
+}
+
+.back {
+  background-image: linear-gradient(
+      90deg,
+      #111315 0%,
+      rgba(17, 19, 21, 0.8604) 34.76%,
+      rgba(17, 19, 21, 0.397736) 74.56%,
+      rgba(17, 19, 21, 0) 98.65%
+    ),
+    url("./assets/images/Frame 45.jpg");
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 608px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: "center";
+}
+
+.backs {
+  background-image: url("./assets/images/Frame 70.svg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  background-image: url("./assets/images/Frame 9.svg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa {
+  color: white;
+}
+
+.art {
+  background: linear-gradient(
+    90deg,
+    #111315 0%,
+    rgba(17, 19, 21, 0.8604) 34.76%,
+    rgba(17, 19, 21, 0.397736) 74.56%,
+    rgba(17, 19, 21, 0) 98.65%
+  );
+  background: black;  
+}
+
